@@ -16,7 +16,7 @@ if user_choice == 0 or user_choice == 1 or user_choice ==2:
     if user_choice == computer_choice:
         print("DRAW")
     elif 0 not in selected:
-        if user_choice > computer_choice: # 
+        if user_choice > computer_choice: # Paper(1) > Rock(0)
             print("YOU WIN!")
         else:
             print("YOU LOSE!")
